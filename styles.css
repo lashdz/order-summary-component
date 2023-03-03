@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+
+body {
+    height: 100vh;
+    background-color: #e1e9ff;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_card {
+    width:450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin: 48px 48px 17px 48px;
+    width: 354px;
+    height: 37px;
+    font-size: 28px;
+    color: #1F2E55;
+    line-height: 37px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    display: block;
+    width: 354px;
+    height: 78px;
+    margin: 0px 48px 20px 48px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.middle_conteiner {
+    display: flex;
+    width: 354px;
+    height: 98px;
+    border-radius: 11px;
+    margin:  0px 48px 20px 48px;
+    background-color: #F7F9FF;
+    margin-bottom: 32px;
+}
+
+.middle_conteiner img {
+    margin: 25px 24px 25px 24px;
+}
+
+.price_conteiner {
+    display: block;
+    margin:auto 0px;
+    margin-right: 60px;
+}
+
+.annual_plan {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #1F2E55;
+    line-height: 21px;
+}
+
+.price {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: #717FA6;
+}
+
+.change  {
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #382AE1;
+    text-align: center;
+    margin: auto;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+h3 {
+    display: flex;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    margin:  0px 48px 35px 48px;
+    align-items: center;
+    justify-content: center;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    cursor: pointer;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: #717FA6;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+}
